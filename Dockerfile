@@ -5,7 +5,7 @@ RUN apt update -q
 RUN apt install wget -y
 RUN rm -rf /var/lib/apt/lists/*
 
-ARG VERSION=0.3.6
+ARG VERSION=0.3.7
 RUN wget -q -O JMusicBot.jar -- https://github.com/jagrosh/MusicBot/releases/download/$VERSION/JMusicBot-$VERSION.jar
 
 FROM openjdk:11-jre-slim

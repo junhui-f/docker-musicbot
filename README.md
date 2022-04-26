@@ -18,5 +18,5 @@ image: ghcr.io/junhui-f/docker-musicbot:main
 
 From `Dockerfile`
 ```
-image: ghcr.io/junhui-f/docker-musicbot:main
+FROM ghcr.io/junhui-f/docker-musicbot:main
 ```
